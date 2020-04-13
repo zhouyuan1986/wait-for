@@ -22,7 +22,7 @@ $ ./wait-for www.eficode.com:80 -- echo "Eficode is up"
 Eficode is up
 ```
 
-To check if [amazon](https://www.amazon.com) and [imdb](https://www.imdb.com)
+To check if [amazon](https://www.amazon.com) and [imdb](https://www.imdb.com) are available:
 
 ```
 $ ./wait-for www.amazon.com:80 www.imdb.com:80 -- echo "amazon, imdb are all up"
